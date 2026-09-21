@@ -33,43 +33,21 @@ Este projeto centraliza rotinas de automação, testes e práticas avançadas em
 
 ---
 
-## 📂 Estrutura do Projeto
-
-A organização dos diretórios segue uma separação limpa entre lógica de nivelamento, automações de aulas específicas, utilitários e testes:
-
-```text
-automacaoTypeScript/
-├── src/
-│   ├── aula28/            # Módulo/Aula 28: Integrações e consumo de APIs
-│   │   └── apis.ts
-│   ├── aula28.ts          # Script principal da aula 28
-│   ├── aula29/            # Módulo/Aula 29: Testes automatizados de API
-│   │   └── apis2.test.ts
-│   ├── nivelamento/       # Módulo de Fundamentos
-│   │   ├── funcoes_condicoes.ts # Lógica condicional e funções básicas
-│   │   └── pratica-async.ts     # Práticas de programação assíncrona (Async/Await)
-│   └── index.ts           # Ponto de entrada da aplicação
-├── tests/
-│   └── login.test.ts      # Testes automatizados de login
-├── utils/
-│   └── helpers.ts         # Funções auxiliares e utilitários globais
-├── package.json           # Dependências e scripts do projeto
-├── tsconfig.json          # Configurações do compilador TypeScript
-└── README.md              # Documentação do projeto
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 TypeScript — Superset JavaScript com tipagem estática.
 Node.js — Ambiente de execução backend.
 Frameworks/Bibliotecas de Testes e Automação configurados via package.json.
 
+---
+
 ## ⚙️ Pré-requisitos
 
 Certifique-se de ter instalado em sua máquina:
 Node.js (Versão 18+ recomendada)
 Gerenciador de pacotes npm
+
+---
 
 ## 📥 Instalação e Configuração
 
@@ -113,3 +91,32 @@ npx ts-node src/nivelamento/pratica-async.ts
 
 Este projeto está sob a licença MIT.
 Desenvolvido por Fabiano Paiva.
+
+---
+
+## 📂 Estrutura do Projeto
+
+A organização dos diretórios segue uma separação limpa entre lógica de nivelamento, automações de aulas específicas, utilitários e testes:
+
+```text
+automacaoTypeScript/
+├── src/
+│   ├── aula28/            # Módulo/Aula 28: Integrações e consumo de APIs
+│   │   └── apis.ts
+│   ├── aula28.ts          # Script principal da aula 28
+│   ├── aula29/            # Módulo/Aula 29: Testes automatizados de API
+│   │   └── apis2.test.ts
+│   ├── nivelamento/       # Módulo de Fundamentos
+│   │   ├── funcoes_condicoes.ts # Lógica condicional e funções básicas
+│   │   └── pratica-async.ts     # Práticas de programação assíncrona (Async/Await)
+│   └── index.ts           # Ponto de entrada da aplicação
+├── tests/
+│   └── login.test.ts      # Testes automatizados de login
+├── utils/
+│   └── helpers.ts         # Funções auxiliares e utilitários globais
+├── package.json           # Dependências e scripts do projeto
+├── tsconfig.json          # Configurações do compilador TypeScript
+└── README.md              # Documentação do projeto
+
+
+
